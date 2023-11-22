@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px 40px;
+
+    .productitem {
+      background-color: grey;
+      border-radius: 10px;
+      
+      img {
+      height: fit-content;
+      }
+
+      .text {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+      }
+    }
+}
+
