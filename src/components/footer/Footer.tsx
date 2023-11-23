@@ -1,5 +1,6 @@
 import style from "./Footer.module.scss";
 import Link from "next/link";
+
 import {
   FaFacebook,
   FaGithubSquare,
@@ -7,6 +8,7 @@ import {
   FaWhatsappSquare,
 } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function Footer() {
   return (
@@ -27,7 +29,7 @@ export default function Footer() {
         <Link href={""}>
           <FaSquareXTwitter />
         </Link>
-        <FaFacebook />
+        <Link href={""}><CiLinkedin /></Link>
       </div>
       <div className={style.link}>
         <Link href="/">Home</Link>

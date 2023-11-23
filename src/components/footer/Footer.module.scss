@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social {
+    display: flex;
+    padding: 5% 4%;
+    
+    a{
+        padding: 4px;
+    }
+    &:hover {
+        color: rgb(142, 140, 140);
+        
+    }
+
+}
+.link {
+    padding: 5% 4%;
+
+    a{
+        padding: 4px;
+    }
+}
+
+.copy {
+    padding: 5% 4%;
+}
