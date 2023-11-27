@@ -1,23 +1,8 @@
+import ContactItem from "@/components/Contact page/ContactItem";
+
 export default function Contact () {
-    return <form>
-     <div>
-        <h2>Contact Page</h2>
-        <p>for more information or complain contact us below</p>
-        </div>
-        <label>Firstname</label>
-        <input />
+    return <div>
 
-        <label>Middlename</label>
-        <input />
-
-        <label>Surname</label>
-        <input />
-
-        <button>Submit</button>
-
-        
-
-
-     </form>
-    
+    <ContactItem/>      
+    </div>
 }
