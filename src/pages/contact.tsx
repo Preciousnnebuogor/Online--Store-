@@ -1,4 +1,4 @@
-import ContactItem from "@/components/Contact page/ContactItem";
+import ContactItem from "@/components/Contactcompnont/ContactItem";
 
 export default function Contact () {
     return <div>
