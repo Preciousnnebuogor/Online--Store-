@@ -1,6 +1,16 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import style from "./Contact.module.scss";
 
+import {
+  FaFacebook,
+  FaGithubSquare,
+  FaInstagram,
+  FaWhatsappSquare,
+} from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
+import Link from "next/link";
+
 
 
 export default function ContactItem() {
@@ -29,12 +39,32 @@ export default function ContactItem() {
     <div className={style.container}>
       <form onSubmit={(e) => handleSubmit(e)} className={style.centerform}>
         <div className={style.content}>
-          <h2>Contact Page</h2>
+          <h2>Contact Us</h2>
           <p>for more information or complain contact us below</p>
+
+          <div className={style.social}>
+        <Link href={"https://web.facebook.com/precious.osemeke"}>
+          <FaFacebook />
+        </Link>
+        <Link href={"https://www.instagram.com/preciousperfection1/"}>
+          <FaInstagram />
+        </Link>
+        <Link href={"https://github.com/Preciousnnebuogor"}>
+          <FaGithubSquare />
+        </Link>
+        <Link href={""}>
+          <FaWhatsappSquare />
+        </Link>
+        <Link href={""}>
+          <FaSquareXTwitter />
+        </Link>
+        <Link href={""}><CiLinkedin /></Link>
+      </div>
+
         </div>
         <div className={style.field}>
           
-          <label>Firstname</label>
+          <label>Fullname</label>
           <input
             type="text"
             placeholder="name"
@@ -68,12 +98,11 @@ export default function ContactItem() {
             value={data.message}
             onChange={(e) => handleChange(e)}
           />
-        
+          
+             <div className={style.button}>
           <button type="submit">Submit</button>
-
-          <p>
-            {data.name},{data.email},{data.phone},{data.message}
-          </p>
+            </div>
+        
           
         </div>
       </form>
