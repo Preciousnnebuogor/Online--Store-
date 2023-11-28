@@ -1,6 +1,8 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import style from "./Contact.module.scss";
 
+
+
 export default function ContactItem() {
   const [data, setData] = useState({
     name: "",
@@ -22,13 +24,16 @@ export default function ContactItem() {
   };
 
   return (
+
+  
     <div className={style.container}>
       <form onSubmit={(e) => handleSubmit(e)} className={style.centerform}>
         <div className={style.content}>
           <h2>Contact Page</h2>
           <p>for more information or complain contact us below</p>
         </div>
-        <div className={style.fields}>
+        <div className={style.field}>
+          
           <label>Firstname</label>
           <input
             type="text"
@@ -37,7 +42,7 @@ export default function ContactItem() {
             value={data.name}
             onChange={(e) => handleChange(e)}
           />
-
+          
           <label>Phone Number</label>
           <input
             type="phone"
@@ -46,7 +51,7 @@ export default function ContactItem() {
             value={data.phone}
             onChange={(e) => handleChange(e)}
           />
-
+          
           <label>Email</label>
           <input
             type="text"
@@ -63,12 +68,13 @@ export default function ContactItem() {
             value={data.message}
             onChange={(e) => handleChange(e)}
           />
-
+        
           <button type="submit">Submit</button>
 
           <p>
             {data.name},{data.email},{data.phone},{data.message}
           </p>
+          
         </div>
       </form>
     </div>

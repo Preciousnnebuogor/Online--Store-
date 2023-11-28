@@ -8,7 +8,7 @@ export default function Navbar() :JSX.Element {
             <ul className={style.link}>
                 <Link href="">Home</Link>
                 <Link href="">Categories</Link>
-                <Link href="">Contact</Link>
+                <Link href="Contact">Contact</Link>
                 <Link href="">Help</Link>
 
             </ul>
