@@ -1,4 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
+import style from "./Contact.module.scss";
 
 export default function ContactItem() {
   const [data, setData] = useState({
@@ -8,7 +9,9 @@ export default function ContactItem() {
     phone: "",
   });
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>| ChangeEvent<HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
+  ) => {
     const name = e.target.name;
     const value = e.target.value;
     setData({ ...data, [name]: value });
@@ -19,51 +22,55 @@ export default function ContactItem() {
   };
 
   return (
-    <form onSubmit={(e) => handleSubmit(e)}>
-      <div>
-        <h2>Contact Page</h2>
-        <p>for more information or complain contact us below</p>
-      </div>
-      <label>Firstname</label>
-      <input
-        type="text"
-        placeholder="name"
-        name="name"
-        value={data.name}
-        onChange={ (e) => handleChange(e)}
-      />
+    <div className={style.container}>
+      <form onSubmit={(e) => handleSubmit(e)} className={style.centerform}>
+        <div className={style.content}>
+          <h2>Contact Page</h2>
+          <p>for more information or complain contact us below</p>
+        </div>
+        <div className={style.fields}>
+          <label>Firstname</label>
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            value={data.name}
+            onChange={(e) => handleChange(e)}
+          />
 
-      <label>Phone Number</label>
-      <input
-        type="phone"
-        placeholder="number"
-        name="phone"
-        value={data.phone}
-        onChange={ (e) => handleChange(e)}
-      />
+          <label>Phone Number</label>
+          <input
+            type="phone"
+            placeholder="number"
+            name="phone"
+            value={data.phone}
+            onChange={(e) => handleChange(e)}
+          />
 
-      <label>Email</label>
-      <input
-        type="text"
-        placeholder="Email"
-        name="email"
-        value={data.email}
-        onChange={ (e) => handleChange(e)}
-      />
+          <label>Email</label>
+          <input
+            type="text"
+            placeholder="Email"
+            name="email"
+            value={data.email}
+            onChange={(e) => handleChange(e)}
+          />
 
-      <label>Type</label>
-      <textarea
-        placeholder="type here"
-        name="message"
-        value={data.message}
-        onChange={ (e) => handleChange(e)}
-      />
+          <label>Type</label>
+          <textarea
+            placeholder="type here"
+            name="message"
+            value={data.message}
+            onChange={(e) => handleChange(e)}
+          />
 
-      <button type="submit">Submit</button>
+          <button type="submit">Submit</button>
 
-      <p>
-        {data.name},{data.email},{data.phone},{data.message}
-      </p>
-    </form>
+          <p>
+            {data.name},{data.email},{data.phone},{data.message}
+          </p>
+        </div>
+      </form>
+    </div>
   );
 }
