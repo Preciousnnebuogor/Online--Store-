@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 export default function AboutUs() {
   return (
     <div>
@@ -13,14 +13,14 @@ export default function AboutUs() {
           should be easy and fun It shoud leave you happy and good-looking, with
           money in your pocket. we also believe that every man have the right to
           look good.
-          <img />
+          <img src="v2.png"/>
         </p>
       </div>
-      <img />
+      <img/>
 
       <div>
         <h2>Our Approach</h2>
-        <img />
+        <img src="A1.png" />
         <p>
           Perfection is a male online shopping site founded by Miss Precious
           Nnebuogor, in the year 2023. We estimate the size of the global
@@ -42,7 +42,7 @@ export default function AboutUs() {
           things from online clothing stores. So it’s a well-timed decision to
           start your online clothing store.
         </p>
-        <img/>
+        <img src="p1.png"/>
       </div>
     </div>
   );
