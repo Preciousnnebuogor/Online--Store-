@@ -6,10 +6,10 @@ export default function Navbar() :JSX.Element {
             <h1 className={style.logo}>Perfection</h1>
 
             <ul className={style.link}>
-                <Link href="">Home</Link>
+                <Link href="/">Home</Link>
                 <Link href="">Categories</Link>
-                <Link href="Contact">Contact</Link>
-                <Link href="">Help</Link>
+                <Link href="/contact">Contact</Link>
+                <Link href="">AboutUs</Link>
 
             </ul>
 
