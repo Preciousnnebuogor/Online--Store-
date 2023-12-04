@@ -7,7 +7,7 @@ export default function Navbar(): JSX.Element {
 
       <ul className={style.link}>
         <Link href="/">Home</Link>
-        <Link href="">Categories</Link>
+        <Link href="/products">Products</Link>
         <Link href="/contact">Contact</Link>
         <Link href="/aboutus">AboutUs</Link>
       </ul>
