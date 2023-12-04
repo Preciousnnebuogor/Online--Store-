@@ -15,8 +15,7 @@ export default function ProductsView() {
   };
   return (
     <div>
-      <div className={style.container}>
-        <div>
+       <div className={style.search}>
           <input
             placeholder="search.."
             type="text"
@@ -24,6 +23,8 @@ export default function ProductsView() {
             onChange={(e) => handleChange(e.target.value)}
           />
         </div>
+      <div className={style.container}>
+       
         {productListValue.map((product, index) => {
           return (
             <div className={style.productitem} key={index}>
