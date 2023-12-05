@@ -4,5 +4,5 @@ import { useRouter } from "next/router";
 export default function ProductDetailsPage() {
     const router = useRouter()
     console.log(router.query.slug,'precious')
-  return <ProductDetailsComs />;
+  return <ProductDetailsComs productID={router.query.slug! as string} />;
 }
