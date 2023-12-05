@@ -1,3 +1,8 @@
+import ProductDetailsComs from "@/components/productdetails/ProductDetails";
+import { useRouter } from "next/router";
+
 export default function ProductDetailsPage() {
-    return <div>product details page</div>
+    const router = useRouter()
+    console.log(router.query.slug,'precious')
+  return <ProductDetailsComs />;
 }
