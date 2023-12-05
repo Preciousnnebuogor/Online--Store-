@@ -73,12 +73,12 @@ interface IProductItem {
     image: "03.png",
   },
   {
-    name: "SHIRT",
+    name: "JEAN",
     price: "#50,000",
     image: "05.png",
   },
   {
-    name: "SHIRT",
+    name: "GUCCI PANT",
     price: "#25,000",
     image: "04.png",
   },
