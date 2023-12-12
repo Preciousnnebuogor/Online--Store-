@@ -1,7 +1,13 @@
 .block {
-    margin: 30px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid #000;
-    
-    
+    width: 400px;
+    height: 200px;
+}
+.inline {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #e82222;
+    display: inline-block;
 }
