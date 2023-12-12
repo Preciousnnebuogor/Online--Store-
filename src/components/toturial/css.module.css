@@ -10,7 +10,8 @@
     margin: 10px;
     border: 1px solid #e82222;
     display: inline-flex;
-    width: 400px;
-    height: 200px;
+    background: #e82222;
+    background-color: aqua;
+    border-radius: 50px;
 }
 
