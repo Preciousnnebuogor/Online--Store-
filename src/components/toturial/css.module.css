@@ -9,5 +9,8 @@
     padding: 10px;
     margin: 10px;
     border: 1px solid #e82222;
-    display: inline-block;
+    display: inline-flex;
+    width: 400px;
+    height: 200px;
 }
+
