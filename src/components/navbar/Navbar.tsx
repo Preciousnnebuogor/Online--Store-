@@ -10,6 +10,7 @@ export default function Navbar(): JSX.Element {
         <Link href="/products">Products</Link>
         <Link href="/contact">Contact</Link>
         <Link href="/aboutus">AboutUs</Link>
+        <Link href="/tutorial">Tutorial</Link>
       </ul>
     </nav>
   );
