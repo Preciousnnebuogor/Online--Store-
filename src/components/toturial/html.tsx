@@ -8,7 +8,7 @@ export default function Html() {
       <div className={style.block}>we are fine</div>
       <div className={style.block}>we are better</div>
       <h2>beginning of love</h2>
-      <span className={style.inline}>inline good</span>
+      <span className={style.inline}>inline<i>good cat</i> good</span>
       <span className={style.inline}> inline good</span>
       <span className={style.inline}> inline good</span>
     </div>
