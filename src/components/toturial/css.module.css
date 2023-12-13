@@ -1,6 +1,6 @@
  .body {
 background-color: skyblue;
-background-image: url('/public/10.png');
+background-image: url('./public/10.png');
 background-position: cover;
  }
 
