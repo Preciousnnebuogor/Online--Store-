@@ -11,6 +11,15 @@ export default function Html() {
       <span className={style.inline}>inline<i>good cat</i> good</span>
       <span className={style.inline}> inline good</span>
       <span className={style.inline}> inline good</span>
+      <div className={style.list}>
+        <ul>
+          <li>hello</li>
+          <li>felix</li>
+          <li>patrick</li>
+          <li>kelvin</li>
+          <li>fidelis</li>
+        </ul>
+      </div>
     </div>
   );
 }
