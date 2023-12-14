@@ -12,7 +12,7 @@ export default function Html() {
       <span className={style.inline}> inline good</span>
       <span className={style.inline}> inline good</span>
       <div className={style.list}>
-        <ul>
+        <ul className={style.copy}>
           <li>hello</li>
           <li>felix</li>
           <li>patrick</li>

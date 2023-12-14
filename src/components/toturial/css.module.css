@@ -28,3 +28,13 @@ font-weight: 5000;
     border-radius: 50px;
 }
 
+.list {
+    margin: 10px;
+    background-color: #e82222;
+
+    .copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
