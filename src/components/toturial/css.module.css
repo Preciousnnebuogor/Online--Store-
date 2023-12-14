@@ -1,40 +1,38 @@
- .body {
-background-color: skyblue;
-background-image: url('/public/10.png');
-background-position: cover;
-border: blue 2px solid;
-font-weight: 5000;
-
-
- }
-
+.body {
+  background-color: skyblue;
+  background-image: url("/public/10.png");
+  background-position: cover;
+  border: blue 2px solid;
+  font-weight: 5000;
+}
 
 .block {
-    margin: 10px;
-    padding: 10px;
-    border: 10px solid #000;
-    width: 400px;
-    height: 200px;
-    font-size: larger;
-    
+  margin: 10px;
+  padding: 10px;
+  border: 10px ridge #000;
+  width: 400px;
+  height: 200px;
+  font-size: larger;
+  text-align: end;
+
 }
 .inline {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #e82222;
-    display: inline-flex;
-    background: #e82222;
-    background-color: aqua;
-    border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e82222;
+  display: inline-flex;
+  background: #e82222;
+  background-color: aqua;
+  border-radius: 50px;
 }
 
 .list {
-    margin: 10px;
-    background-color: #e82222;
+  margin: 10px;
+  background-color: #e82222;
 
-    .copy {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
