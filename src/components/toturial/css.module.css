@@ -34,6 +34,9 @@
     align-items: center;
     background-color: #e82222;
     border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
   }
 
   .copy :hover {
