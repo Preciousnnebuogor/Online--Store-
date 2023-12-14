@@ -14,7 +14,6 @@
   height: 200px;
   font-size: larger;
   text-align: end;
-
 }
 .inline {
   padding: 10px;
@@ -28,11 +27,18 @@
 
 .list {
   margin: 10px;
-  background-color: #e82222;
 
   .copy {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #e82222;
+    border-radius: 10px;
   }
+
+  .copy :hover {
+    background-color: aqua;
+  }
+
+
 }
