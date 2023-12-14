@@ -3,6 +3,9 @@ background-color: skyblue;
 background-image: url('/public/10.png');
 background-position: cover;
 border: blue 2px solid;
+font-weight: 5000;
+
+
  }
 
 
@@ -12,6 +15,7 @@ border: blue 2px solid;
     border: 10px solid #000;
     width: 400px;
     height: 200px;
+    font-size: larger;
     
 }
 .inline {
