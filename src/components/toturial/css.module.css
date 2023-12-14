@@ -23,6 +23,7 @@
   background: #e82222;
   background-color: aqua;
   border-radius: 50px;
+  
 }
 
 .list {
@@ -37,6 +38,7 @@
     position: absolute;
     top: 20px;
     right: 50px;
+    cursor: grab;
   }
 
   .copy :hover {
