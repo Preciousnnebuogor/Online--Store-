@@ -1,3 +1,4 @@
+import Link from "next/link";
 import style from "./css.module.css";
 export default function Html() {
   return (
@@ -13,11 +14,11 @@ export default function Html() {
       <span className={style.inline}> inline good</span>
       <div className={style.list}>
         <ul className={style.copy}>
-          <li>hello</li>
-          <li>felix</li>
-          <li>patrick</li>
-          <li>kelvin</li>
-          <li>fidelis</li>
+          <Link href={""}><li>felix</li></Link>
+          <Link href={""}><li>patrick</li></Link>
+          <Link href={""}><li>kelvin</li></Link>
+          <Link href={""}><li>fidelis</li></Link>
+          <Link href={""}><li>olise</li></Link>
         </ul>
       </div>
     </div>
