@@ -17,6 +17,7 @@
 }
 .inline {
   padding: 10px;
+  text-align: center;
   margin: 10px;
   border: 1px solid #e82222;
   display: inline-flex;
