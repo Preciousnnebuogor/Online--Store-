@@ -31,6 +31,7 @@
 
   .copy {
     display: flex;
+    font-size: 48px;
     justify-content: space-around;
     align-items: center;
     background-color: #e82222;
