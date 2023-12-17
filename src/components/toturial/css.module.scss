@@ -1,10 +1,18 @@
 .link {
   background-color: aqua;
 
-  ul li {
+  ul li a {
     background-color: grey;
     margin: 5px;
     width: 80px;
     padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(238, 21, 57);
+    border-radius: 5px;
+    display: block;
+  }
+
+  ul li a:hover {
+    background-color: rgb(13, 235, 65);
   }
 }
