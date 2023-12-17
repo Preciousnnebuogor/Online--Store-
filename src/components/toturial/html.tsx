@@ -17,6 +17,8 @@ export default function HTML() {
           <Link href={""}>Register</Link>
         </li>
       </ul>
+
+      <button>Click</button>
     </div>
   );
 }

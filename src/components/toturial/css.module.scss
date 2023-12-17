@@ -14,5 +14,13 @@
 
   ul li a:hover {
     background-color: rgb(13, 235, 65);
+    color: aliceblue;
+    
+  }
+  button {
+    padding: 10px;
+    margin-left: 80px;
+    border: 2px solid rgb(40, 15, 15);
+    border-radius: 5px;
   }
 }
