@@ -1,13 +1,10 @@
 .link {
   background-color: aqua;
 
-  ul {
-    li {
-      list-style: disc;
-    }
-  }
-
-  a {
-    color: blue;
+  ul li {
+    background-color: grey;
+    margin: 5px;
+    width: 80px;
+    padding: 10px;
   }
 }
