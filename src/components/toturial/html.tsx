@@ -21,8 +21,15 @@ export default function HTML() {
           <button>Click</button>
       </div>
       
-      <form>
-        Name <input type="text"/>
+      <form className={style.form}>
+        <label>Name</label>
+        <input type="text" name="name"/>
+
+        <label>Phone</label>
+        <input type="tel" name="phone"/>
+
+        <label>Email</label>
+        <input type="email" name="email"/>
       </form>
           
           </>
