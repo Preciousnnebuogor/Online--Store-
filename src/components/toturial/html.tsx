@@ -21,15 +21,9 @@ export default function HTML() {
           <button>Click</button>
       </div>
       
-      <div className={style.page}>
-              <li><Link href={""}>Home</Link></li>
-              <li><Link href={""}>Page</Link></li>
-              <li><Link href={""}>About</Link></li>
-              <li><Link href={""}>Log Out</Link></li>
-
-
-
-          </div>
+      <form>
+        Name <input type="text"/>
+      </form>
           
           </>
   );
