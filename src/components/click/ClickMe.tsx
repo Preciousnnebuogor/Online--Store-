@@ -1,6 +1,7 @@
+import style from "./Click.module.scss"
 export default function ClickMe() {
   return (
-    <div>
+    <div className={style.text}>
       <h1>
         Welcome to [Your Online Store Name] - Elevate Your Style with
         Trendsetting Men's Fashion!
