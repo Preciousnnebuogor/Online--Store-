@@ -30,11 +30,16 @@
   color: greenyellow;
   padding: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 
-  lebel {
+  input {
+    background-color: aqua;
+  }
+
+  label {
+    font-size: larger;
+    row-gap: left;
+    
     
   }
 }
-
-
