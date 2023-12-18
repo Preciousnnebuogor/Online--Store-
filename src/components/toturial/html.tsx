@@ -22,6 +22,7 @@ export default function HTML() {
       </div>
       
       <form className={style.form}>
+        
         <label>Name</label>
         <input type="text" name="name"/>
 
