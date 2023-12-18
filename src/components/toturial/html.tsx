@@ -31,7 +31,7 @@ export default function HTML() {
         <label>Email</label>
         <input type="email" name="email"/>
       </form>
-          
+          <p className={style.me}>i am precious</p>
           </>
   );
   
