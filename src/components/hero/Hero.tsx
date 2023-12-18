@@ -11,7 +11,7 @@ export default function Hero() {
           quality, are pocket friendly and delivery to all allocations in
           Nigeria. <br/> Classy and confident, the epitome of fine taste.
         </p>
-        <button>Click</button>
+        <button href="/click">Click</button>
       </div>
       <div className={style.photo}>
         <img src="/ph.png"></img>
