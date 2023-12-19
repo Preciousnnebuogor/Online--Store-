@@ -1,21 +1,34 @@
 .text {
+  h1 {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
 
-    h1 {
-        font-size: larger;
-        font-weight: bolder;
-        padding-top: 10px;
-    }
-
-    p {
-        padding-bottom: 10px;
-    }
+  p {
+    padding-bottom: 10px;
+  }
 }
 
 .img {
-    display: flex;
-    margin-top: 10px;
-    img {
-        padding-left: 100px;
-        
+  display: flex;
+  margin-top: 10px;
+  img {
+    padding-left: 100px;
+    width: 50%;
+    height: auto;
+  }
+  .para {
+    margin-top: 150px;
+    float: right;
+    padding: 20px;
+    width: 50%;
+    margin-right: 50px;
+    
+
+    p {
+        width: 70%;
+        font-size: 24px;
     }
+  }
 }

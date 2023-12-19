@@ -56,13 +56,20 @@ export default function ClickMe() {
       </div>
       <div className={style.img}>
         <img src="/cc1.png" />
-      
+      <div className={style.para}>
       <p>
         We have made fashioning for our classic men more easy,reliable and cost
         effective making your shopping online fast and reliable. As a result
         payment can be made on delivery to any location of your choice.
+        Perfection your NO 1 Shopping App.  We have made fashioning for our classic men more easy,reliable and cost
+        effective making your shopping online fast and reliable. As a result
+        payment can be made on delivery to any location of your choice.
+        Perfection your NO 1 Shopping App.  We have made fashioning for our classic men more easy,reliable and cost
+        effective making your shopping online fast and reliable. As a result
+        payment can be made on delivery to any location of your choice.
         Perfection your NO 1 Shopping App
       </p>
+      </div>
       </div>
     </>
   );
