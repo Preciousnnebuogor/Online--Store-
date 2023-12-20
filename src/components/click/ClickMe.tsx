@@ -5,7 +5,7 @@ export default function ClickMe() {
     <>
       <div className={style.text}>
         <h1>
-          Welcome to [Your Online Store Name] - Elevate Your Style with
+          Welcome to Prefection Online Store - Elevate Your Style with
           Trendsetting Men's Fashion!
         </h1>
         <p>

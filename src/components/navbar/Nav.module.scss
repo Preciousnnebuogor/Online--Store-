@@ -17,6 +17,10 @@
 .logo:hover {
     color: black;
     transition: 2ms;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+      }
 }
 
 
@@ -34,3 +38,4 @@
     }
     
 }
+
