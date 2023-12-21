@@ -29,7 +29,9 @@ export default function Footer() {
         <Link href={""}>
           <FaSquareXTwitter />
         </Link>
-        <Link href={""}><CiLinkedin /></Link>
+        <Link href={""}>
+          <CiLinkedin />
+        </Link>
       </div>
       <div className={style.link}>
         <Link href="/">Home</Link>
