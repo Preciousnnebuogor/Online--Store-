@@ -1,38 +1,37 @@
 .nav {
-   display: flex; 
-   height: 80px;
-   justify-content: space-between;
-   background: rgb(191, 189, 189);
-   
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background: rgb(191, 189, 189);
+  width: 100vw;
 }
 
 .logo {
-    color: rgb(183, 33, 33);
-    font-size: 30px;
-    line-height: 60px;
-    padding: 0 100px;
-    font-weight: bolder;
+  color: rgb(183, 33, 33);
+  font-size: 30px;
+  line-height: 60px;
+  padding: 0 100px;
+  font-weight: bolder;
 }
 
 .logo:hover {
-    color: black;
-    transition: 2ms;
-
+  color: black;
+  transition: 2ms;
 }
-
 
 .link {
-    
-    line-height: 90px;
-    margin-right: 20px;
-    
-    a {
-        padding-right: 20px ;
-    }
+  line-height: 90px;
+  margin-right: 20px;
 
-    a:hover {
-        color: rgb(142, 140, 140);
-    }
-    
+  @media (max-width: 600px) {
+    display: none;
+  }
+
+  a {
+    padding-right: 20px;
+  }
+
+  a:hover {
+    color: rgb(142, 140, 140);
+  }
 }
-

@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 export default function Click() {
   return <div>
     <Navbar/>
-    <ClickMe/>
-    <Footer/>
+    {/* <ClickMe/> */}
+    {/* <Footer/> */}
   </div>;
 }
