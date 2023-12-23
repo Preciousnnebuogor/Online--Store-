@@ -1,11 +1,17 @@
 .container {
-    width: 100%;
+    width: 100vw;
     background-color: white;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
     padding: 20px 40px;
+    background-color: tomato;
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    
+    }
 
     .productitem {
       background-color: rgb(191, 189, 189);;
