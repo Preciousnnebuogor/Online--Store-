@@ -34,7 +34,13 @@ export default function HTML() {
       </form>
           <p className={style.me}>i am precious</p>
           </>
+
+           var youLike = true;
+  if (youLike) {
+   document.write("i love you") 
+  }
   );
   
+ 
    
 }
