@@ -37,7 +37,7 @@ export default function HTML() {
 
            var youLike = true;
   if (youLike) {
-   document.write("i love you") 
+   console.log("i love you") 
   }
   );
   
