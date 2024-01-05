@@ -7,10 +7,6 @@
     column-gap: 20px;
     padding: 20px 40px;
 
-    @media (max-width: 600px) {
-      grid-template-columns: 1fr;
-    
-    }
 
     .productitem {
       background-color: rgb(191, 189, 189);;
@@ -19,6 +15,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      
       &:hover {
         border: solid 1px grey;
         border-radius: 10px;
@@ -26,6 +23,8 @@
       
       img {
       height: fit-content;
+
+      
       
       }
 
@@ -36,10 +35,7 @@
         width: 100%;
         background-color: rgb(142, 140, 140);
         border-radius: 10px;
-        
-        
       }
-    }
 }
 
 .colos {
