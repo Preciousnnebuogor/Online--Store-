@@ -39,7 +39,7 @@ export default function ContactItem() {
     <div className={style.container}>
       <form onSubmit={(e) => handleSubmit(e)} className={style.centerform}>
         <div className={style.content}>
-          <h2>Contact Us</h2>
+          <h1>Contact Us</h1>
           <p>for more information or complain contact us below</p>
 
           <div className={style.social}>
