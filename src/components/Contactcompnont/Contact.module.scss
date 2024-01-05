@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
 
-
   .centerform {
     width: 50vw;
     background-color: rgb(191, 189, 189);
@@ -19,7 +18,6 @@
       flex-direction: column;
       align-items: center;
       padding: 10px;
-      background-color: rgb(8, 227, 143);
       width: 90vw;
     }
 
@@ -31,26 +29,22 @@
         font-size: larger;
         font-weight: bolder;
         margin-top: 60px;
-        
 
         @media (max-width: 600px) {
           font-size: larger;
-          
         }
-
-       
       }
 
       .social {
         display: flex;
         padding: 5% 4%;
-
+        
 
         @media (max-width: 600px) {
-        margin-top: 10px;
-        margin-bottom: 30px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          justify-content: space-between;
         }
-      
       }
     }
 
@@ -80,10 +74,25 @@
         outline: none;
         justify-content: space-between;
         margin-top: 10px;
+
+        @media (max-width: 600px) {
+          border-radius: 50px;
+          font-size: large;
+          font-weight: bolder;
+          cursor: pointer;
+          color: black;
+          background: gray;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
       }
 
-      &:hover {
-        color:gray ;
+      button:hover {
+        color: white;
+
+        @media (max-width: 600px) {
+         color: aliceblue;
+        }
       }
     }
   }
