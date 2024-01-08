@@ -4,18 +4,17 @@
   justify-content: space-between;
   background: rgb(191, 189, 189);
   width: 100vw;
-
+  
 
   @media (max-width: 600px) {
     flex-direction: column;
-    display: inline-block;
+    display: flex;
     background: rgb(191, 189, 189);
     padding-bottom: 10px;
     height: fit-content;
-
-    
-    
-}
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .logo {
@@ -25,30 +24,30 @@
   font-weight: bolder;
 
   @media (max-width: 600px) {
-   max-height: 100vh;
+    max-height: 100vh;
+    padding: 0px;
+    
   }
 }
 
 .logo:hover {
   color: black;
   transition: 2ms;
-
-
 }
 
 .link {
   line-height: 90px;
   margin-right: 20px;
 
-@media (max-width: 600px) {
-    
-    padding-bottom: 10px;
-    
-    
-    
-}
+  @media (max-width: 600px) {
+    line-height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+  }
 
-  
   a {
     padding-right: 20px;
   }
